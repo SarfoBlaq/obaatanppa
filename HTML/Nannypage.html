@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/CSS/main css/nanny.css" />
+    <link rel="stylesheet" href="/CSS/main css/fontawesom.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+        <!--jquery and java script for navbar -->
+    <script>
+
+        $(function() {
+    
+            $(".toggle").on("click", function(){
+
+                if($(".item").hasClass("active")){
+                    $(".item").removeClass("active");
+                }
+                else{
+                    $(".item").addClass("active");
+                }
+            })
+        });
+    </script>
+
+    <title>OBAATANPA</title>
+</head>
+<!--nav bar-->
+    <nav>
+        <ul class="menu">
+          <li class="logo"><a href="#">Obaatanpa</a></li>
+          <li class="item"><a href="#">Getting Preganant</a></li>
+          <li  class="item"><a href="#">Pregnancy</a></li>  
+          <li  class="item"><a href="#">Baby</a></li>
+          <li  class="item"><a href="#">Community</a></li>
+          <li  class="item"><a href="#">Pharmacy</a></li>
+          <li  class="item button"><a href="#">Login</a></li>
+          <li  class="item button secondary"><a href="#">Sign up</span></a></li>
+          <li  class="toggle"><span class = "bars"></span></li>
+          
+           </ul>
+      </nav>
+
+<!--This is the main page-->
+<body>
+
+    <div class="grid-container">
+        <div class="grid-item item-1">
+
+            Item 1
+        </div>
+
+        <div class="grid-item item-2">
+            Item 1
+        </div>
+
+        <div class="grid-item item-3">
+            Item 1
+        </div>
+
+        <div class="grid-item item-4">
+            Item 1
+        </div>
+
+        <div class="grid-item item-5">
+            Item 1
+        </div>
+
+      </div>
+<!-- 
+    <A href="grid.html"> 
+        <button class="buttons" style="vertical-align:middle"><span>Explore </span></button>
+    </A>
+
+    <div class="xop-section">
+        <ul class="xop-grid">
+          <li>
+            <div class="xop-box xop-img-1">
+              <a href="#">
+              <div class="xop-info">
+                <h3>Paint</h3>
+                <p>Nulla commodo iaculis vulputate.</p>
+              </div></a>
+            </div>
+          </li>
+          <li>
+            <div class="xop-box xop-img-2">
+              <a href="#">
+              <div class="xop-info">
+                <h3>Soap</h3>
+                <p>Nulla commodo iaculis vulputate.</p>
+              </div></a>
+            </div>
+          </li>
+          <li>
+            <div class="xop-box xop-img-3">
+              <a href="#">
+              <div class="xop-info">
+                <h3>Flowers</h3>
+                <p>Nulla commodo iaculis vulputate.</p>
+              </div></a>
+            </div>
+          </li>
+          <li>
+            <div class="xop-box xop-img-4">
+              <a href="#">
+              <div class="xop-info">
+                <h3>Feathers</h3>
+                <p>Nulla commodo iaculis vulputate.</p>
+              </div></a>
+            </div>
+          </li>
+        </ul>
+      </div>
+-->
+
+       
+</body>
+</html>

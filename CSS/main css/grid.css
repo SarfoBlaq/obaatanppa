@@ -1,0 +1,305 @@
+
+/*Footer*/
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  color: #d9d9d9;    	 	
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+  
+.contain1{
+  position: relative;
+  margin: 130px auto;
+  text-align: center;
+  padding: 0 20px;
+}
+.contain1 .test{
+  font-size: 2.5rem;
+  font-weight: 600;
+  color: #202020;
+}
+.contain1 .p{
+  font-size: 2.1875rem;
+  font-weight: 600;
+  color: #202020;
+}
+footer{
+  
+  bottom: 0px;
+  width: 100%;
+  background:#e66161;
+}
+.main-content{
+  display: flex;
+}
+.main-content .box{
+  flex-basis: 50%;
+  padding: 10px 20px;
+}
+.box h2{
+  font-size: 1.125rem;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+.box .contain{
+  margin: 20px 0 0 0;
+  position: relative;
+}
+.box .contain:before{
+  position: absolute;
+  content: '';
+  top: -10px;
+  height: 2px;
+  width: 100%;
+  background: #1a1a1a;
+}
+.box .contain:after{
+  position: absolute;
+  content: '';
+  height: 2px;
+  width: 15%;
+  background: #f12020;
+  top: -10px;
+}
+.left .contain p{
+  text-align: justify;
+}
+.left .contain .social{
+  margin: 20px 0 0 0;
+}
+.left .contain .social a{
+  padding: 0 2px;
+}
+.left .contain .social a span{
+  height: 40px;
+  width: 40px;
+  background: #1a1a1a;
+  line-height: 40px;
+  text-align: center;
+  font-size: 18px;
+  border-radius: 5px;
+  transition: 0.3s;
+}
+.left .contain .social a span:hover{
+  background: #eb2c39;
+}
+  .fas{
+  font-size: 1.4375rem;
+  background: #1a1a1a;
+  height: 45px;
+  width: 45px;
+  line-height:45px;
+  text-align: center;
+ padding: 10px;
+  border-radius: 50%;
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+.fab{
+  font-size: 1.275rem;
+  background: #1a1a1a;
+  height: 35px;
+  width: 35px;
+  line-height:45px;
+  text-align: center;
+ padding: 7px;
+  border-radius: 50%;
+  transition: 0.3s;
+  cursor: pointer;
+  margin: 0px;
+}
+ .fas:hover{
+  background: #eb2c39;
+}
+.spa{
+  margin-right: 10px;
+}
+ .test{
+  font-size: 1.0625rem;
+  font-weight: 500;
+  padding-left: 10px;
+}
+ .phone{
+  margin: 15px 0;
+}
+.right form .test{
+  font-size: 1.0625rem;
+  margin-bottom: 2px;
+  color: #656565;
+}
+.right form .msg{
+  margin-top: 10px;
+}
+.right form input, .right form textarea{
+  width: 100%;
+  font-size: 1.0625rem;
+  background: #383737;
+  padding-left: 10px;
+  border: 1px solid #222222;
+}
+.right form input:focus,
+.right form textarea:focus{
+  outline-color: #3498db;
+}
+.right form input{
+  height: 35px;
+}
+.right form .btn{
+  margin-top: 10px;
+}
+.right form .btn button{
+  
+  height: 40px;
+  width: 50%;
+  border: none;
+  outline: none;
+  color: #060a27;
+  font-size: 1.0625rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: .3s;
+  border:2px solid black;
+  background-color: white;
+  border-color: yellow;
+  
+}
+.right form .btn button:hover{
+  background: #000;
+}
+.bottom center{
+  padding: 5px;
+  font-size: 0.9375rem;
+  background: #151515;
+}
+.bottom center span{
+  color: #656565;
+}
+.bottom center a{
+  color:  #eb2c39;
+  text-decoration: none;
+}
+.bottom center a:hover{
+  text-decoration: underline;
+}
+@media screen and (max-width: 900px) {
+  footer{
+    position: relative;
+    bottom: 0px;
+  }
+  .main-content{
+    flex-wrap: wrap;
+    flex-direction: column;
+  }
+  .main-content .box{
+    margin: 5px 0;
+  }
+}
+.as h2{
+  margin: 10px;
+}
+
+	
+
+
+
+
+
+
+
+
+
+
+
+/*.information{
+	display: grid;
+	grid-gap: 5px;
+	grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+	padding: 10px;
+	margin: 10px;
+
+}
+.informat{
+	display: flex;
+	height: 200px;
+	margin: 10px;
+	padding: 20px;
+	flex-wrap: nowrap;
+	justify-content:space-evenly;
+	box-shadow: 10px 10px 5px #aaaaaa;
+	
+}
+.pic1{
+	
+	width: 200px;
+	margin: 15px;
+	background-image: url(/img/Info.png);
+	background-size: cover;
+	
+}
+
+.pic2{
+	
+	width: 200px;
+	margin: 15px;
+	text-align: center;
+	line-height: 23px;
+	font-size: 22px;
+	
+}
+.pic3{
+	
+	width: 200px;
+	margin: 10px;
+	background-image: url(/img/info1.jpg);
+	background-size: cover;
+	
+}
+
+.pic4{
+	
+	width: 200px;
+	margin: 10px;
+	text-align: center;
+	line-height: 25px;
+	font-size: 23px;
+	
+}
+.pic5{
+	
+	width: 200px;
+	margin: 10px;
+	background-image: url(/img/info2.jpg);
+	background-size: cover;
+	
+}
+
+.pic6{
+	
+	width: 200px;
+	margin: 10px;
+	text-align: center;
+	line-height: 25px;
+	font-size: 23px;
+	
+}
+.pic7{
+	
+	width: 200px;
+	margin: 10px;
+	background-image: url(/img/info3.jpg);
+	background-size: cover;
+	
+}
+
+.pic8{
+	
+	width: 200px;
+	margin: 10px;
+	text-align: center;
+	line-height: 25px;
+	font-size: 23px;
+	
+}*/
